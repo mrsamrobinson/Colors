@@ -24,7 +24,7 @@ public class GUIFrame extends JFrame
 	{
 		this.baseController = baseController;
 
-		basePanel = new GUIPanel(baseController);
+		basePanel = new GUIPanel(baseController, this);
 		
 //		imageLocation = getClass().getResource("colors/view/images/icon.jpg");
 		
